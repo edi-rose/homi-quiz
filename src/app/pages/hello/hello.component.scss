@@ -1,0 +1,25 @@
+.q1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  height: 40%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
+
+.title {
+
+}
+
+.thank-you {
+  height: 60%;
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+}
