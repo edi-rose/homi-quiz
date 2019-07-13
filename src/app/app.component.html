@@ -1,8 +1,3 @@
-<div class="quiz" fxLayout="column" fxLayoutAlign="center stretch" >
-  <main>
-    <router-outlet></router-outlet>
-  </main>
-  <footer>
-    <button *ngIf="showButton" [routerLink]="['/1']" routerLinkActive="true" (click)="click()">{{ buttonText }}</button>
-  </footer>
+<div class="quiz">
+  <router-outlet></router-outlet>
 </div>

@@ -1,25 +1,30 @@
-.q1 {
+.hello-page {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
-.title-container {
-  height: 40%;
-  width: 100%;
+.row {
+  display: flex;
   flex-direction: row;
   justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+
+.main-text {
+  width: 60%;
   display: flex;
+  color: #6AC781;
+  font-size: 2.3ch;
+  font-family: helvetica;
 }
 
 .title {
-
-}
-
-.thank-you {
-  height: 60%;
-  flex-direction: row;
-  justify-content: center;
-  display: flex;
+  color: #6AC781;
+  font-size: 4ch;
+  font-weight: bold;
+  font-family: helvetica;
 }

@@ -7,12 +7,17 @@ html {
   background-color:rgb(108,197,132);
  }
 
- .router {
+ .root-container {
   height: 70%;
   width: 100%;
   background-color: white;
   border-radius: 30px;
   display: flex;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
 }
 
 .img-row {
