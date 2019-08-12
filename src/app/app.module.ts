@@ -5,17 +5,20 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HelloComponent } from './pages/hello/hello.component';
 import { QuestionOneComponent } from './pages/question-one/question-one.component';
+import {MatFormFieldModule} from '@angular/material/form-field'
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    QuestionOneComponent
+    QuestionOneComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule
   ],
   bootstrap: [AppComponent]
 })
