@@ -42,3 +42,33 @@ html {
    width: 50%;
    margin-left: 25%;
  }
+
+ .green {
+   color: #6AC781;
+ }
+
+ * {
+  font-family: Helvetica;
+}
+
+.cloud-left {
+  position: absolute;
+  top: 60%;
+  left: 0%;
+  height: 40%;
+}
+
+.cloud-right {
+  position: absolute;
+  top: 60%;
+  right: 0%;
+  height: 40%;
+}
+
+.img-left {
+  height: 100%;
+}
+
+.img-right {
+  height: 100%;
+}

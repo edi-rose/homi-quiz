@@ -1,0 +1,40 @@
+.question-one-page {
+  height: 100%;
+  width: 200%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+}
+
+.column {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.title {
+  font-size: 4ch;
+  font-weight: bold;
+}
+
+.upload-img-button {
+  height: 80px;
+}
+
+.google-map-button {
+  height: 80px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
