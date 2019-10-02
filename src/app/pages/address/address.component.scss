@@ -1,4 +1,4 @@
-.question-one-page {
+.address-page {
   height: 100%;
   width: 200%;
   display: flex;
@@ -15,7 +15,7 @@
 }
 
 .column {
-  width: 80%;
+  width: 90%;
   margin-left: 20%;
 }
 
@@ -37,4 +37,8 @@
   flex-direction: row;
   justify-content: space-around;
   width: 50%;
+}
+
+.form-field-width {
+  width: 100%;
 }

@@ -1,0 +1,41 @@
+<!-- Refactory this to make it mat-form -->
+<div class="address-page">
+  <div class="column">
+    <div class="title green">
+      ADDRESS
+    </div>
+    <div>
+      <mat-form-field appearance="outline" class="form-field-width">
+        <mat-label>
+          Address
+        </mat-label>
+        <input
+          matInput
+          data-cy="address-line-input"
+          aria-label="addressLine"
+          placeholder="e.g. 22 Buckle Street"
+          formControlName="addressLine"
+          required
+        />
+      </mat-form-field>
+    </div>
+  </div>
+  <div class="column">
+    <div class="title green">
+      UPLOAD A PHOTO
+    </div>
+    <div class="row">
+      <div>
+         <input #imageInput
+         type="file"
+         accept="image/*"
+         (change)="processImg(imageInput)"
+         mat-raised-button
+         class="green">
+      </div>
+      <div>
+          <button class="google-map-button green" mat-raised-button color="primary" isRoundButton="true">LETS BEGIN</button>
+      </div>
+    </div>
+  </div>
+</div>

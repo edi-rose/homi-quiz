@@ -4,21 +4,23 @@ import { MatButtonModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HelloComponent } from './pages/hello/hello.component';
-import { QuestionOneComponent } from './pages/question-one/question-one.component';
-import {MatFormFieldModule} from '@angular/material/form-field'
+import { AddressComponent } from './pages/address/address.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloComponent,
-    QuestionOneComponent,
-
+    AddressComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   bootstrap: [AppComponent]
 })
